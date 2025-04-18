@@ -12,7 +12,7 @@ import joblib
 import pandas as pd
 import traceback
 
-data = joblib.load("xgb_loan_model.pkl")
+data = joblib.load("2702327601_MIECEL ALICIA ANGEL J/xgb_loan_model.pkl")
 model = data["model"]
 scaler = data["scaler"]
 
